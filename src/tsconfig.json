@@ -20,8 +20,8 @@
         "noImplicitUseStrict": false,
         "noFallthroughCasesInSwitch": true
     },
-    "files": ["./src/main.ts", "./references.d.ts", "./src/polyfills.ts", "src/*.js"],
+    "files": ["./src/main.ts", "./references.d.ts", "./src/polyfills.ts", ".src/*.js"],
     "exclude": ["**/*.spec.ts", "angular"],
-	"include": ["**/*.ts", "references.d.ts"],
+	"include": ["**/*.js", "**/*.ts", "references.d.ts"],
     "compileOnSave": false
 }
